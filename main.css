@@ -12,11 +12,17 @@
 }
 .display {
     align-self: center;
+    display: flex;
     margin-top: .75em;
     margin-bottom: .75em;
     width: 18em;
     flex: 1 1 0;
     background-color: aliceblue;
+    justify-content:flex-end;
+}
+.display .content {
+    align-self: center;
+    font-size: 4rem;
 }
 .row {
     flex: 1 1 0;
