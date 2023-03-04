@@ -1,5 +1,34 @@
+* {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
 .calculator {
     background-color: darkslategray;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.display {
+    align-self: center;
+    margin-top: .75em;
+    margin-bottom: .75em;
+    width: 18em;
+    flex: 1 1 0;
+    background-color: aliceblue;
+}
+.row {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.fifth.row {
+    padding-bottom: 1em;
+}
+.btn {
+    flex: 1 1 0;
+    margin: .2em .2em .2em;
 }
